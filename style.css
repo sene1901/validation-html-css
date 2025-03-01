@@ -179,18 +179,17 @@ body{
 
     .sec3{
      margin-top: 3%; 
-     height:90vh;
+     height:120vh;
       
    }
    .container3{
-
-       height: 90vh;
-       /* width: 95%; */
+       height: 120vh;
+        width: 95%; 
        margin: auto;
        display: flex;
        flex-direction: column;
        justify-content: center;
-       align-items: center;
+       align-items: center; 
    
    }
    .container3 h1{
@@ -202,28 +201,125 @@ body{
     background-image: url("Images/2.jpeg");
    }
    .image2-cont3{
-    background-image: url("Images/3.jpeg");
+    background-image: url("Images/sapa1.jpg");
 
    }
    .image3-cont3{
-    background-image: url("Images/4.jpeg");
+    background-image: url("Images/sapa2.avif");
 
    }
    .image4-cont3{
-    background-image: url("Images/image1.jpg");
+    background-image: url("Images/sapa3.webp");
 
    }
-   .image1-cont3, .image2-cont3, .image3-cont3, .image4-cont3{
+   .image5-cont3{
+    background-image: url("Images/sapa4.jpg");
+
+   }
+   .image1-cont3, .image2-cont3, .image3-cont3, .image4-cont3, .image5-cont3{
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
    }
    .images-cont3{
     display: grid;
-    grid-template-columns: repeat(4,250px);
-     grid-template-rows: 300px; 
+    grid-template-columns: repeat(5,200px);
+     grid-template-rows: 350px; 
      gap: 15px;
-    
    }
+   .para-image h2{
+    color: #FFF;
+    font-size: 18px;
+    width: 70px; 
+    height: 30px;
+    text-align: center;
+    background-color: rgb(251, 153, 34);
+    border-radius: 10px;
+   }
+   .para-image{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+   }
+
+  .para-image h3{
+    
+    font-size: 18px;
+    color: rgb(67, 64, 64);
+    position: relative;
+    top: 45vh; 
+    right: 40px;
+    text-align: center;
+
+   }
+   span{
+    color: rgb(255, 72, 0);
+   }
+.sec4{
+    height: 80vh;
+    margin-top: 25px;
+    
+   
+}
+   .sec4 .container4{
+    background: url("Images/bg.webp") ;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.partie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    padding-top: 40px; 
+    height:220px ;
+    width: 360px;
+    background-color: rgba(212, 42, 42, 0.934);
+    color: #FFF;
+    box-shadow: 10px 10px 10px #201f1f;
+
+}
+.box1 img {
+    height: 140px;
+    width: 140px;
+
+    
+    border-radius: 50%;
+    /* background-color: rgb(239, 155, 45);  */
+    border: 3px solid #FFF;
+}
+
+ .box1{
+
+position: relative;
+top: 60px; 
+}  
+
+
+.para h1{
+    font-size:24 px;
+    margin: 30px 0; 
+    font-weight: 800;
+    text-align: center;
+
+}
+.para p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
 
 
 
