@@ -161,6 +161,7 @@ body{
 .container2 .photos{
     display: flex;
     justify-content:space-around;
+    align-items: center;
     margin: auto;
     width: 85%;
 
@@ -216,6 +217,7 @@ body{
    }
    .image5-cont3{
     background-image: url("Images/sapa4.jpg");
+    
 
    }
    .image1-cont3, .image2-cont3, .image3-cont3, .image4-cont3, .image5-cont3{
@@ -223,7 +225,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    /* cursor: pointer; */
    }
+   
+  
    .images-cont3{
     display: grid;
     grid-template-columns:repeat(5,220px);
@@ -368,11 +373,6 @@ top: 60px;
         left: 30px; 
     }
 
-
-
-
-
-
 @media screen and (max-width: 1024px) {
     .navbar{
         height: 200px;
@@ -399,50 +399,52 @@ top: 60px;
     }
     /* .sec2 */
     .sec2{
-        height:180vh;
+        height:200vh;
    }
    .container2{
-    height:180vh;
-    display: flex;
-    flex-direction: column;
+    height:200vh;
+     /* display: flex;
+    flex-direction: column; 
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
    }
     .container2 .photos{
-        display: flex;
         flex-wrap: wrap; 
-        margin-left: -5px;
+         margin-left:-5px ; 
     }
    .photo img{
         width: 400px;
-        height: 200px;
+        height: 240px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
          border-radius: 10px;
          margin-left: 30px;
     }
-    .bnt{
-        margin-left: 15vh;
+  .photo  .bnt{
+    position: relative;
+        bottom: 20vh; 
+        left: 15vh;
+        /* margin-left: 15vh; */
+
 
     }
     /* sec3 */
     .sec3{
-        height: 180vh;
-        margin-top: 55px;
+        height: 260vh;
+        margin-top: 40px; 
     }
     .container3{
-        height: 180vh;
+        height: 260vh;
         display: flex;
         flex-direction: column;
        
-    
     }
     .images-cont3{
         display: grid;
-        grid-template-columns:380px;
-         grid-template-rows: repeat(5,1fr); 
+        grid-template-columns:400px;
+         grid-template-rows: repeat(5,240px); 
          gap: 15px;
        }
        .para-image h3{
@@ -454,6 +456,7 @@ top: 60px;
        } 
        /* sec4 */
        .sec4{
+        margin-top: -5vh;
          height: 230vh; 
        }
       .sec4 .container4{
@@ -465,30 +468,36 @@ top: 60px;
         height: 200vh;
     }
        .sec5 .container5{
-
+        
         height: 200vh;
         flex-wrap: wrap;  
     }
     .image-cont5 img{
+        
         width: 400px;
-        height: 200px;
-
+        height: 240px;
+    
     }
-    /* .image-cont5  .para-cont5{
-        color: #FFF;
+    .partie{
+        margin-top: -15vh;
+    }
+     .image-cont5  .para-cont5{
+
         position: relative;
-        bottom: 27vh;
-        left: 30px;
+        bottom: 0;
+        left: 0;
+        color: rgb(14, 14, 14);
+    }
+    .image-cont5{
+        padding-top: 10vh;
     }
     
+
     .bnt {
             position: relative;
-            bottom: 30vh ; 
-            left: 30px; 
-        } */
-    
-    
-    
+            bottom: 0vh ; 
+            left: 0px; 
+        } 
 
 
 }
