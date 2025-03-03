@@ -51,9 +51,9 @@ body{
     background-image: url("Images/image1.jpg");
    
 }
-/* .image2{
+.image2{
     background-image: url("Images/pexels-photo-5782708.webp");
-} */
+} 
 .image3{
     background-image: url("Images/image3.jpg");
    
@@ -65,8 +65,6 @@ body{
 }
 .sec1{
     height: 75vh;
-    /* background-color: brown;  */
-   
 } 
 .container1{
      height: 75vh;
@@ -123,9 +121,9 @@ body{
    
 }
 .container2{
-    /* background: url("Images/1.jpg");
+    background: url("Images/1.jpg");
     background-size: cover;
-    background-position: center; */
+    background-position: center; 
     border-radius: 10px;
     padding-top: 30px;
     height: 80vh;
@@ -301,7 +299,7 @@ body{
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    /* background-color: rgb(239, 155, 45);  */
+    /* background-color: rgb(239, 155, 45);   */
     border: 3px solid #FFF;
 }
 
@@ -323,17 +321,19 @@ top: 60px;
 
 
 .sec5{
-    height: 60vh;
-    margin-top: 25px; 
+    height: 55vh;
+    margin-top: 25px;  
 }
    .sec5 .container5{
-    padding-top: 30px;
-    height: 55vh;
+    padding-top: 4vh; 
+    height: 50vh;
     width: 95%;
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap; 
+     flex-wrap: wrap;  
     justify-content: center;
+    align-items: center;
+    
     
    
 }
@@ -376,23 +376,24 @@ top: 60px;
 
 
     .sec6{
-        height:70vh;
+        /* margin-top: 40px; */
+        height:90vh;
        
     }
-    /* .container6{
+     .container6{
          background: url("Images/cont6\ B.webp"); 
         background-size: cover;
         background-position: center; 
         border-radius: 10px;
         padding-top: 30px;
-        height: 70vh;
+        height: 90vh;
         width: 95%;
         margin: auto; 
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        align-items: center; 
-     */
+        align-items: center; }
+     
        
     
     .images-cont6{
@@ -491,16 +492,12 @@ top: 60px;
         width: 100%;
         flex-wrap: wrap;
         display: flex;
-        position: relative;
-        left: -57px;
-        /* justify-content: flex-start; */
-        /* margin-left: -10px;   */
+        margin: auto; 
     } 
     .link{
         flex-wrap: wrap;
     }
     .nav-Icon{
-        /* margin-left: 20px; */
         margin: auto;
     }
     .logo{
@@ -524,15 +521,13 @@ top: 60px;
     height:200vh;
     display: flex;
     flex-direction: column; 
-     justify-content: center;
-    align-items: center;  
+     /* justify-content: center;
+    align-items: center;   */
 
    }
     .container2 .photos{
         flex-wrap: wrap;
-        display: flex; 
-       
-         
+        display: flex;  
     }
    .photo img{
         width: 300px;
@@ -541,18 +536,14 @@ top: 60px;
         background-position: center;
         background-repeat: no-repeat;
          border-radius: 10px;
-         /* margin-left:- 10px;  */
+          margin-left:  45px;  
     }
   .photo  .bnt{
     width: 17vh;
     height: 7vh;
-    
     position: relative;
         bottom: 10vh; 
-        left: 10vh;
-        /* margin-left: 15vh; */
-
-
+        left: 23vh;
     }
     /* sec3 */
     .sec3{
@@ -581,59 +572,61 @@ top: 60px;
        } 
        /* sec4 */
        .sec4{
-        margin-top: -5vh;
-         height: 230vh; 
+        /* margin-top: -5vh;  */
+         height: 220vh; 
        }
       .sec4 .container4{
         flex-wrap: wrap;
-        height: 230vh;
+        height: 220vh;
 
+       }
+       .partie{
+        width: 300px;
+        height: 240px;
+         padding-top: 25vh; 
        }
        /* SEC5 */
        .sec5{
-        margin-top: -5vh;
-        height: 220vh;
+    margin-top: 12vh;
+        height: 200vh;
     }
        .sec5 .container5{
-        
-        height: 220vh;
+        height: 200vh;
         flex-wrap: wrap;  
     }
     .image-cont5 img{
-        
         width: 300px;
         height: 240px;
-    
     }
     .partie{
         margin-top: -15vh;
     }
      .image-cont5  .para-cont5{
 
-        position: relative;
-        bottom: 0;
-        left: 0;
-        color: rgb(14, 14, 14);
+        margin-left:-15px ;
+       
     }
     .image-cont5{
-        padding-top: 10vh;
+        /* padding-top: 10vh; */
     }
-    .bnt {
-            position: relative;
-            bottom: 0vh ; 
-            left: 0px; 
-        } 
+    
         /* sec6 */
+        .sec1{
+            height: 80vh;
+
+        }
+        .container6{
+            height: 80vh;
+        }
         .images-cont6{
          display: grid;
-         grid-template-columns: repeat(3, 110px);
+         grid-template-columns: repeat(3, 130px);
          grid-auto-rows: 90px;
-       
         gap: 15px;  
        } 
        .images-cont6  .bnt1{
-        width: 11vh;
-        height: 4vh;
+        width: 16vh;
+        height: 7vh;
         position: relative;
         top: 15vh; 
         left: 6px; 
@@ -641,27 +634,27 @@ top: 60px;
     }
     
     .images-cont6  .bnt2{
-        width: 7vh;
-        height: 4vh;
+        width: 12vh;
+        height: 7vh;
         position: relative;
         top: 5vh; 
-        left: 3vh; 
+        left: 5vh; 
 
     }
     .images-cont6  .bnt3{
-        width: 10vh;
-        height: 6vh;
+        width: 15vh;
+        height: 9vh;
         position: relative;
         top: 3vh; 
-        left: 3px; 
+        left: 4vh; 
 
     }
     .images-cont6  .bnt4{
-        width: 10vh;
-        height: 6vh;
+        width: 17vh;
+        height: 9vh;
         position: relative;
         top: 15vh; 
-        left: 0px; 
+        left: 12px; 
 
     }
 
