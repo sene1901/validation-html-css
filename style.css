@@ -474,6 +474,126 @@ top: 60px;
             left: 10vh; 
 
         }
+
+
+
+
+        .sec7{
+            margin-top: 3%; 
+            height:120vh;
+             
+          }
+          .container7{
+              height: 120vh;
+               width: 95%; 
+              margin: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center; 
+          
+          }
+          .container7 h1{
+              color: rgb(89, 86, 86);
+              font-size: 32px;
+              text-align: center;
+          }
+          .image1-cont7{
+           background-image: url("Images/2.jpeg");
+          }
+          .image2-cont7{
+           background-image: url("Images/sapa1.jpg");
+       
+          }
+          .image3-cont7{
+           background-image: url("Images/sapa2.avif");
+       
+          }
+          .image4-cont3{
+           background-image: url("Images/image3.jpg");
+       
+          }
+          .image5-cont7{
+           background-image: url("Images/sapa4.jpg");
+           
+       
+          }
+          .image1-cont7, .image2-cont7, .image3-cont7, .image4-cont7, .image5-cont7{
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           border-radius: 10px;
+           /* cursor: pointer; */
+          }
+          
+         
+          .images-cont7{
+           display: grid;
+           grid-template-columns:repeat(5,220px);
+            grid-template-rows: 350px;
+            gap: 15px;
+          }
+          .para-image h2{
+           color: #FFF;
+           font-size: 18px;
+           width: 70px; 
+           height: 30px;
+           text-align: center;
+           background-color: rgb(251, 153, 34);
+           border-radius: 10px;
+           
+          }
+          .para-image{
+           display: flex;
+           align-items:flex-end; 
+           justify-content: space-around;
+           flex-direction: column; 
+          }
+       
+         .para-image h3{
+       
+           font-size: 18px;
+           color: rgb(67, 64, 64);
+           position: relative;
+           top: 45vh; 
+            right: 45px; 
+          }
+          span{
+           color: rgb(255, 72, 0);
+          }
+          .sec8{
+            /* margin-top: 3%;  */
+            height:50vh; 
+          }
+          .sec8 .container8{
+            height: 100%;
+
+          }
+          .image1-cont8{
+            height: 50vh;
+            width: 50%;
+            background-image: url("Images/c8.jpeg");
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+          }
+          .image2-cont8{
+            height: 50vh;
+            width: 50%;
+            background-image: url("Images/CON8.jpeg");
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+
+          }
+          .container8{
+            width: 95%;
+            margin: auto;
+
+         display: flex; 
+            
+          }
          /* *{
             border: 2px solid red;
         }  */
@@ -620,7 +740,7 @@ top: 60px;
         }
         .images-cont6{
          display: grid;
-         grid-template-columns: repeat(3, 130px);
+         grid-template-columns: repeat(3, 110px);
          grid-auto-rows: 90px;
         gap: 15px;  
        } 
@@ -638,15 +758,15 @@ top: 60px;
         height: 7vh;
         position: relative;
         top: 5vh; 
-        left: 5vh; 
+        left: 3vh; 
 
     }
     .images-cont6  .bnt3{
-        width: 15vh;
-        height: 9vh;
+        width: 14vh;
+        height: 8vh;
         position: relative;
         top: 3vh; 
-        left: 4vh; 
+        left: 2vh; 
 
     }
     .images-cont6  .bnt4{
@@ -654,9 +774,33 @@ top: 60px;
         height: 9vh;
         position: relative;
         top: 15vh; 
-        left: 12px; 
+        left: 2px; 
 
     }
+    .sec7{
+        height: 260vh;
+        margin-top: 40px; 
+    }
+    .container7{
+        height: 260vh;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .images-cont7{
+        display: grid;
+        grid-template-columns:300px;
+         grid-template-rows: repeat(5,240px); 
+         gap: 15px;
+        
+       }
+       .para-image h3{
+        color: blue;
+        position: relative;
+        top: 0; 
+        right: 50px;
+
+       } 
 
       
       
