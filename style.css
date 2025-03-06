@@ -52,13 +52,13 @@ body{
    
 }
 .image2{
-    background-image: url("Images/pexels-photo-5782708.webp");
+   
 } 
 .image3{
     background-image: url("Images/image3.jpg");
    
 }
-.image1, .image2, .image3{
+.image1, .image2, .titre1{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -73,8 +73,10 @@ body{
     gap: 15px;
     justify-content: center;
 }
-.image2 .titre1 {
-    height: 450px;
+.titre1 {
+    background-image: url("Images/pexels-photo-5782708.webp");
+
+    /* height: 450px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -282,6 +284,7 @@ body{
 }
 .partie{
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -566,37 +569,36 @@ top: 60px;
             height:50vh; 
           }
           .sec8 .container8{
-            height: 100%;
+            height: 50vh;
 
           }
           .image1-cont8{
             height: 50vh;
-            width: 50%;
+             width: 50%; 
             background-image: url("Images/c8.jpeg");
             background-size: cover;
             background-position: center;
-            border-radius: 10px;
+            /* border-radius: 10px; */
 
           }
           .image2-cont8{
             height: 50vh;
-            width: 50%;
+             width: 50%; 
             background-image: url("Images/CON8.jpeg");
             background-size: cover;
             background-position: center;
-            border-radius: 10px;
+            /* border-radius: 10px; */
 
           }
           .container8{
             width: 95%;
             margin: auto;
-
-         display: flex; 
+            display: flex; 
             
           }
-         /* *{
+         *{
             border: 2px solid red;
-        }  */
+        }  
         
 
 
@@ -659,11 +661,11 @@ top: 60px;
           margin-left:  45px;  
     }
   .photo  .bnt{
-    width: 17vh;
-    height: 7vh;
+    width: 10vh;
+    height: 6vh;
     position: relative;
         bottom: 10vh; 
-        left: 23vh;
+        left: 12vh;
     }
     /* sec3 */
     .sec3{
