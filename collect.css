@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.social-icons a  i{
+    display:inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: grey;
+    color: rgb(63, 60, 60);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.social-icons a {
+   
+    width: 20px;
+     margin-right: 10px; 
+}
+
+.commande span {
+    color: black;
+    font-size: 14px;
+}
+
+.commande a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.langue select {
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+/* NAVBAR */
+.navbar{
+    height: 90px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+     
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+    font-size: 16px;
+    margin-left: 20px;
+}
+.bx{
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+}
+.menu-accueil, .menu-collect, .menu-about, .menu-contact{
+     display: flex; 
+}
+.logo{
+ font-size: 20px;  
+ color: rgb(56, 53, 53);
+  margin-left: 40px;
+}
+
+
+.nav-Icon i{
+    color: rgb(40, 38, 38);
+    font-size: 24px;
+    line-height: 90px; 
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons {
+    margin-bottom: 5px;
+}
+
+.commande {
+    order: -1; /* Pour mettre la promo en premier */
+    margin-bottom: 5px;
+}
+
+.langue {
+    margin-top: 5px;
+}
+}

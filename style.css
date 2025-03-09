@@ -56,7 +56,7 @@ body{
     display: grid;
     grid-template-columns: 280px 1fr 280px;
     grid-template-rows: 500px;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 }
 .image1{
@@ -75,8 +75,6 @@ body{
 }
 .titre1 {
     background-image: url("Images/pexels-photo-5782708.webp");
-
-    /* height: 450px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -119,7 +117,6 @@ body{
     /* .sec2 */
 .sec2{
     margin-top: 20px; 
-    /* height:80vh; */
    
 }
 .container2{
@@ -186,7 +183,6 @@ body{
          }
     
    .container3{
-       /* height: 120vh; */
         width: 95%; 
        margin: auto;
        display: flex;
@@ -198,13 +194,12 @@ body{
    .container3 h1{
        color: rgb(89, 86, 86);
        font-size: 32px;
-       /* text-align: center; */
    }
    .produit-container {
     display: flex;
     gap: 20px;
     justify-content: center;
-  flex-wrap: wrap;   
+    flex-wrap: wrap;   
 }
 .produit h3{
     font-size:20px ;
@@ -876,26 +871,29 @@ margin: auto;
         grid-template-rows: 1fr;
         
     }
+  .titre1 .bouton{
+        width: 25vh;
+        height: 5vh;
+        
+        
+        
+    }
     /* .sec2 */
     
     .container2 .photos{
         flex-direction: column;
+        padding-left: -10vh;
+
     }
    .photo img{
         width: 300px;
-        height: 240px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
          border-radius: 10px;
-          margin-left:  45px;  
+        
     }
   .photo  .bnt{
     width: 20vh;
     height: 6vh;
-    position: relative;
-        bottom: 10vh; 
-        left: 15vh;
+    
     }
     /* sec3 */
 
@@ -907,11 +905,11 @@ margin: auto;
 
        } 
        /* sec4 */
- .container4   .partie{
-    margin-top: 20px;
+ 
+ .para{
+    height:200px ;
+    width: 300px;
  }
-
-        
        /* SEC5 */
        
        .sec5 .container5{
@@ -1000,27 +998,18 @@ margin: auto;
     /* SEC9 */
     .container9 .images-cont9{
         flex-wrap: wrap;
+        
     }
     .partie1 img {
-        height: 120px;
+        height: 100px;
         width: 60px;
     }
-.image1-cont9  
-        {
-            
-            
-        
-        }
-        .image2-cont9{
-
-        }
-    
 
      /* SEC10 */
             .container10 {
     
                 flex-direction: column; 
-                gap: 20px; 
+                /* gap: 20px;  */
             }
             .box {
                 max-width: 100%; 
