@@ -40,6 +40,10 @@ header {
     color: red;
     text-decoration: none;
     font-weight: bold;
+    border-bottom:2px solid  red;
+}
+.commande a i{
+    color:red ;
 }
 
 .langue select {
@@ -49,7 +53,7 @@ header {
 }
 /* NAVBAR */
 .navbar{
-    height: 90px; 
+    /* height: 90px;  */
     display: flex;
     justify-content: space-between;
     
@@ -62,6 +66,7 @@ header {
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin-left: -30px;
      
 }
 .navbar a{
@@ -90,6 +95,101 @@ header {
     line-height: 90px; 
 
 }
+/* sec-new */
+.new{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(250, 207, 231),rgb(146, 146, 246));
+}
+.new p{
+    font-size: 18px;
+    color: rgb(111, 107, 101);
+
+}
+.new h1
+{
+    font-size:32px ;
+}
+/* sec collection */
+.collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Style des cartes */
+.category {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Animation au survol */
+.category:hover {
+    transform: translateY(-5px);
+}
+
+/* Section des contrôles */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Bouton filtre */
+.filter-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Boutons de vue */
+.view-options button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.view-options .active {
+    font-weight: bold;
+}
+
+/* Sélecteur de tri */
+.sort {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 
 
@@ -114,5 +214,32 @@ header {
 
 .langue {
     margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* respon sec collection */
+
+.collection {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.controls {
+    flex-direction: column;
+    gap: 10px;
+}
+.collection {
+    grid-template-columns: repeat(1, 1fr);
 }
 }
