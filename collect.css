@@ -16,8 +16,8 @@ header {
     display:inline-flex; 
     justify-content: center;
     align-items: center; 
-    width: 80px;
-    height: 40px;
+    width: 50vh;
+    height: 30px;
     background-color: grey;
     color: rgb(63, 60, 60);
     border-radius: 50%;
@@ -205,7 +205,7 @@ header {
     padding: 20px;
 }
 
-/* Style des cartes */
+/* Style IMAGE */
 .article2 {
     background: white;
     padding: 15px;
@@ -217,29 +217,120 @@ header {
 }
 
 .article2 img {
-    width: 230px;
-    height: 400px;
+    /* width: 250px; */
+    height: 400px; 
     border-radius: 5px;
 }
 
 .article2 a{
-    color: rgb(153, 150, 150);
+    color: rgb(59, 58, 58);
     text-decoration: none;
     display: block; 
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 10px
 }
 .article2 a span{
     color: black;
+    font-weight: bold;
 }
-.even{
+/* .even{
     display: flex;
 }
 .even .radio1{
     padding: 10px;
-    border:1px solid grey;
-    /* accent-color:orange; */
-    background-color: orange;
+    border:1px solid rgb(63, 63, 63);
+    accent-color:orange; 
+} */
+
+
+
+
+.even {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.even input {
+    display: none; /* Cache les boutons radio natifs */
+}
+
+.even label {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.even input:checked + label {
+    border: 2px solid #333;
+    transform: scale(1.2);
+}
+
+/* Couleurs spécifiques */
+.black { background-color: black; }
+.orange { background-color: orange; }
+.white { background-color: white; border: 1px solid #ccc; }
+.pink { background-color: pink; }
+.purple { background-color: purple; }
+.green { background-color: green; }
+
+ .article2 .pourcent{
+     position: absolute;
+    background: rgb(255, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    z-index: 2; 
+   
+}
+/* .collection3 */
+.collection3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Style IMAGE */
+.article3 {
+    background: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.article3 img {
+    /* width: 250px; */
+    height: 400px; 
+    border-radius: 5px;
+}
+
+.article3 a{
+    color: rgb(59, 58, 58);
+    text-decoration: none;
+    display: block; 
+    margin-top: 10px
+}
+.article3 a span{
+    color: black;
+    font-weight: bold;
+}
+.article3 .even{
+    display: flex;
+}
+.article3 .even .radio1{
+    padding: 10px;
+    border:1px solid rgb(63, 63, 63);
+    accent-color:orange; 
 }
 
 
@@ -251,7 +342,9 @@ header {
 
 
 
-
+/* *{
+    border: solid;
+} */
 
 
 
@@ -269,7 +362,7 @@ header {
 }
 
 .commande {
-    order: -1; /* Pour mettre la promo en premier */
+    /* Pour mettre la promo en premier */
     margin-bottom: 5px;
 }
 
@@ -299,15 +392,21 @@ header {
 }
 /* respon sec collection */
 
-.collection {
-    grid-template-columns: repeat(2, 1fr);
+.collection1 {
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .controls {
     flex-direction: column;
     gap: 10px;
 }
-.collection {
+.collection2 {
     grid-template-columns: repeat(1, 1fr);
 }
+
+.collection3 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
 }
