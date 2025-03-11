@@ -175,9 +175,9 @@ header {
 }
 
 /* Boutons de vue */
-.view-options button {
-    border: none;
-    background: transparent;
+.view-options i {
+    /* border: none; */
+    /* background: transparent; */
     font-size: 20px;
     margin: 0 5px;
     cursor: pointer;
@@ -213,37 +213,45 @@ header {
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+     transition: transform 0.3s; 
+    margin: auto;
+}
+.article2:hover {
+    transform: translateY(-5px);
 }
 
 .article2 img {
-    /* width: 250px; */
-    height: 400px; 
-    border-radius: 5px;
+        width: 250px; 
+        height: 400px; 
+        border-radius: 5px;
+    } 
+    .article2  p span {
+        position:absolute;  
+       background: rgb(255, 115, 0);
+       color: white;
+       padding: 5px 10px;
+       font-size: 14px;
+       border-radius: 5px; 
+       z-index: 2;
+   }
+   
+.article2 .image-reduct{
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.article2 a{
-    color: rgb(59, 58, 58);
-    text-decoration: none;
-    display: block; 
-    margin-top: 10px
+.article2 h3{
+    color: rgb(98, 96, 96);
+    display: block;  
+
 }
-.article2 a span{
+.article2 p{
     color: black;
     font-weight: bold;
+    margin-top:-15px;
 }
-/* .even{
-    display: flex;
-}
-.even .radio1{
-    padding: 10px;
-    border:1px solid rgb(63, 63, 63);
-    accent-color:orange; 
-} */
-
-
-
-
+    /* button radio */
 .even {
     display: flex;
     gap: 8px;
@@ -256,38 +264,43 @@ header {
 }
 
 .even label {
-    width: 16px;
+     width: 16px;
     height: 16px;
     border-radius: 50%;
     display: inline-block;
     border: 2px solid transparent;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out; 
 }
 
 .even input:checked + label {
     border: 2px solid #333;
-    transform: scale(1.2);
+     transform: scale(1.2); 
 }
 
 /* Couleurs spécifiques */
-.black { background-color: black; }
-.orange { background-color: orange; }
-.white { background-color: white; border: 1px solid #ccc; }
-.pink { background-color: pink; }
-.purple { background-color: purple; }
-.green { background-color: green; }
-
- .article2 .pourcent{
-     position: absolute;
-    background: rgb(255, 0, 0);
-    color: white;
-    padding: 5px 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    z-index: 2; 
-   
+.black 
+{ background-color: black; 
 }
+.orange { 
+    background-color: orange; 
+}
+.white { 
+    background-color: white; 
+    border: 1px solid #ccc; 
+}
+.pink { 
+    background-color: pink; 
+}
+.purple { 
+    background-color: purple;
+ }
+.green { 
+    background-color: rgb(123, 250, 233); 
+}
+
+ 
+
 /* .collection3 */
 .collection3 {
     display: grid;
@@ -295,6 +308,7 @@ header {
     gap: 15px;
     justify-content: center;
     padding: 20px;
+   
 }
 
 /* Style IMAGE */
@@ -306,33 +320,236 @@ header {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    margin: auto;
 }
 
 .article3 img {
-    /* width: 250px; */
+    width: 250px; 
     height: 400px; 
     border-radius: 5px;
 }
 
-.article3 a{
+.article3 h3{
+    color: rgb(59, 58, 58);
+    display: block; 
+    /* margin-top: 10px */
+}
+.article3 p{
+    margin-top: -15px;
+    color: black;
+    font-weight: bold;
+}
+.even {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.even input {
+    display: none; /* Cache les boutons radio natifs */
+}
+
+.even label {
+     width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.even input:checked + label {
+    border: 2px solid #333;
+     transform: scale(1.2); 
+}
+
+/* Couleurs spécifiques */
+.black 
+{ background-color: black; 
+}
+.bleuFonce { 
+    background-color: rgba(8, 8, 159, 0.784); 
+}
+.white { 
+    background-color: white; 
+     border: 1px solid #676565;  
+}
+.marron{ 
+    background-color: rgba(146, 110, 55, 0.596); 
+}
+.gris { 
+    background-color: rgb(136, 134, 136);
+ }
+.vert { 
+    background-color: rgb(123, 250, 233); 
+}
+.bleuClair { 
+    background-color: rgb(160, 200, 234); 
+}
+
+/* Collection4 */
+.collection4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+/* Style IMAGE */
+.article4 {
+    background: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: auto;
+}
+
+.article4 img {
+    width: 250px; 
+    height: 400px; 
+    border-radius: 5px;
+    margin: auto;
+}
+
+.article4 h3{
+    font-size: 16px;
     color: rgb(59, 58, 58);
     text-decoration: none;
     display: block; 
     margin-top: 10px
 }
-.article3 a span{
+.article4 p{
+
+    font-size: 16px;
+    margin-top: -15px;
     color: black;
     font-weight: bold;
 }
-.article3 .even{
-    display: flex;
+.rose{
+    background-color: rgb(246, 194, 216);
 }
-.article3 .even .radio1{
-    padding: 10px;
-    border:1px solid rgb(63, 63, 63);
-    accent-color:orange; 
+/* sec boutons */
+.boutons-carres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.bouton-carre{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #1d1c1c;
+    border: 1px solid #4e4b4b;
+    font-weight: bold;
+
+
+    
+}
+.bouton-carre1{
+    height: 50px;
+    width: 50px;
+    background-color: #0e0d0d;
+    color: #FFF;
+    border: 1px solid #302f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
 }
 
+        /* FOOTER   */
+        footer{ 
+            margin-top: 30px;
+            border-top: 1px solid #444;
+            padding: 20px; 
+        }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+     padding: 30px; 
+    
+}
+
+.footer-sec {
+    width: 250px;
+}
+
+.footer-sec h3 {
+    color: #1e1c1c;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-sec p{
+    color: #171616;
+}
+
+.footer-sec ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sec ul li {
+    margin: 5px 0;
+}
+
+.footer-sec ul li a {
+    color: rgb(33, 32, 32);
+    text-decoration: none;
+}
+
+.footer-sec form input {
+    width: 90%;
+    height: 40px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: #242222;
+    font-weight: bold;
+    background-color: #eae5e5;
+}
+
+.footer-sec form button {
+    padding-bottom:  10px;  
+    height: 40px;
+    width: 120px;
+    background-color: #0e0d0d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+     top: -7vh; 
+     left: 16vh;
+
+}
+.footer-sec form button i{
+    color: #FFF;
+}
+
+.footer-fin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  border-top: 1px solid #444; 
+    font-size: 14px;
+}
 
 
 
@@ -405,6 +622,9 @@ header {
 }
 
 .collection3 {
+    grid-template-columns: repeat(1, 1fr);
+}
+.collection4 {
     grid-template-columns: repeat(1, 1fr);
 }
 

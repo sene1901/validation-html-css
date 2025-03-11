@@ -134,12 +134,15 @@ body{
 
 }
 .container2 .photos{
-    display: flex; 
+    display: flex;
+    gap: 15px;
+     
  
 }
 .photos .photo{
-    display: flex;
-    flex-direction: column;
+     display: flex;
+    flex-direction: column; 
+
 }
 .container2 h2{
     color: white;
@@ -154,7 +157,6 @@ body{
     background-repeat: no-repeat;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 25px; 
     
 }
 
@@ -175,7 +177,9 @@ body{
         text-align: center;
         position: relative;
          bottom: 90px; 
-        left: 50px;  
+         margin: auto;
+    
+
     }
          /* SEC3 */
          .sec3{
@@ -240,6 +244,7 @@ body{
     margin-left: 5px;
     position: relative;
     bottom: 50px;
+    color: #111;
    
 
 }
@@ -881,12 +886,11 @@ margin: auto;
     /* .sec2 */
     
     .container2 .photos{
-        flex-direction: column;
-        padding-left: -10vh;
-
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     }
    .photo img{
-        width: 300px;
+
          border-radius: 10px;
         
     }
@@ -916,14 +920,19 @@ margin: auto;
   
     }
     .image-cont5 img{
-        width: 300px;
-        height: 240px;
-    }
+        margin: auto;
+        width: 46vh;
+        margin-left: 35px;
+    } 
     .partie{
     }
      .image-cont5  .para-cont5{
-        margin-left:-15px ;
+        margin-left:15px ;
        
+    }
+    .bnt{
+        margin-left:15px ;
+
     }
     
         /* sec6 */
