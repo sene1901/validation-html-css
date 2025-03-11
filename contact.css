@@ -1,0 +1,167 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+.nav-link{
+    list-style-type: none;
+     display: flex;
+    align-items: center;
+    margin-left: -30px;
+      
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+    font-size: 16px;
+    margin-left: 20px;
+}
+.bx{
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+}
+.menu-accueil, .menu-collect, .menu-about, .menu-contact{
+     display: flex; 
+}
+.logo{
+ font-size: 20px;  
+ color: rgb(56, 53, 53);
+  margin-left: 40px;
+}
+
+
+.nav-Icon i{
+    color: rgb(40, 38, 38);
+    font-size: 24px;
+    line-height: 90px; 
+
+}
+/* sec-new */
+.new{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(250, 207, 231),rgb(146, 146, 246));
+}
+.new p{
+    font-size: 18px;
+    color: rgb(111, 107, 101);
+
+}
+.new h1
+{
+    font-size:32px ;
+}
+.renseignement{
+    margin-top: 30px;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+}
+.visite{
+    border: solid;
+}
+.formul{
+    border: solid;
+
+}
+.icons a  {
+    display:inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    color: rgb(37, 35, 35);
+    font-size: 1.3rem;
+    text-decoration: none;
+
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+.name input[type="text"],.name input[type="email"]{
+    width:40vh;
+    height: 40px; 
+    /* margin-left: 15px; */
+    color:#1f1d1d;
+
+}
+ form input[type="submit"]{
+    height:40px ;
+    width: 60vh;
+    color: #fff;
+    background-color: #1f1d1d; 
+    border: 1px solid rgb(37, 36, 37);
+    /* padding: 10px 30px 30px 30px;   */
+    text-transform: uppercase;
+    text-align: center;
+     margin: 20px 30px; 
+     left: 50px;
+    
+     }  
+     form{
+        display: flex;
+        flex-direction: column;
+     }  
+     .saisi{
+        width: 60vh
+
+     }         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    body{
+        /* width: 100%; */
+        overflow-x: hidden;
+
+    }
+    .navbar{
+        
+        flex-wrap: wrap;
+        display: flex;
+        margin: auto; 
+    } 
+    
+     .nav-Icon{
+        margin: auto;
+    }
+    .logo{
+        margin: auto;
+    } 
+
+    .nav-link a{
+        font-size: 14px;
+    }}
