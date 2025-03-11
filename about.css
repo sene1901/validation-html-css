@@ -110,6 +110,7 @@ text-decoration: none;
 display:inline-flex; 
 justify-content: center;
 align-items: center; 
+text-decoration: none;
 width: 2.5rem;
 height: 2.5rem;
 background-color:transparent;
@@ -195,6 +196,7 @@ font-size: 14px;
     height: 40px;
     width: 92px;
     margin-left: -10px;
+    margin-bottom: 20px;
    
 
 }

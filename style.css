@@ -784,7 +784,7 @@ margin: auto;
     color: white;
     text-decoration: none;
 }
-.footer-icons a i {
+.footer-icons a  {
     display:inline-flex; 
     justify-content: center;
     align-items: center; 
@@ -798,6 +798,10 @@ margin: auto;
     text-decoration: none;
 
 }
+.footer-icons a i{
+    color: #FFF;
+}
+
 
 .footer-sec form input {
     width: 90%;
