@@ -73,13 +73,8 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.visite{
-    border: solid;
-}
-.formul{
-    border: solid;
 
-}
+
 .icons a  {
     display:inline-flex; 
     justify-content: center;
@@ -91,41 +86,138 @@ body {
 }
 .name{
     display: flex;
-    justify-content: space-around;
+     gap: 15px;
 }
-.name input[type="text"],.name input[type="email"]{
-    width:40vh;
-    height: 40px; 
-    /* margin-left: 15px; */
-    color:#1f1d1d;
+.formul form input, .formul form textarea {
+    width: 99%;
 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
 }
+.formul form input{
+    height: 40px;
+}
+
  form input[type="submit"]{
     height:40px ;
-    width: 60vh;
+    width: 100%;
     color: #fff;
     background-color: #1f1d1d; 
     border: 1px solid rgb(37, 36, 37);
-    /* padding: 10px 30px 30px 30px;   */
     text-transform: uppercase;
     text-align: center;
-     margin: 20px 30px; 
-     left: 50px;
+    
+    
     
      }  
      form{
         display: flex;
         flex-direction: column;
+
+
      }  
-     .saisi{
-        width: 60vh
-
-     }         
-
+       .renseignement h2{
+        font-weight: 200;
+       }      
 
 
 
 
+       /* FOOTER   */
+       footer{ 
+    
+        padding: 30px; 
+    }
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+/* max-width: 1200px; */
+margin: auto;
+ padding: 30px;
+ border-top: 1px solid #444; 
+
+}
+
+.footer-sec {
+width: 250px;
+}
+
+.footer-sec h3 {
+color: #1e1c1c;
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer-sec p{
+color: #171616;
+}
+
+.footer-sec ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-sec ul li {
+margin: 5px 0;
+}
+
+.footer-sec ul li a {
+color: rgb(33, 32, 32);
+text-decoration: none;
+}
+
+.footer-icons a i {
+display:inline-flex; 
+justify-content: center;
+align-items: center; 
+width: 2.5rem;
+height: 2.5rem;
+background-color:transparent;
+color: rgb(63, 60, 60);
+border: 1px solid #302f2f;
+border-radius: 50%;
+font-size: 1.3rem;
+text-decoration: none;
+
+}
+
+.footer-sec form input {
+width: 90%;
+height: 40px;
+padding-bottom: 5px;
+margin-top: 10px;
+color: #242222;
+font-weight: bold;
+background-color: #eae5e5;
+}
+
+.footer-sec form button {
+padding-bottom:  10px;  
+height: 40px;
+width: 120px;
+background-color: #0e0d0d;
+border: none;
+color: white;
+cursor: pointer;
+position: relative;
+ top: -7vh; 
+ left: 16vh;
+
+}
+.footer-sec form button i{
+color: #FFF;
+}
+
+.footer-fin {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+border-top: 1px solid #444; 
+font-size: 14px;
+}
 
 
 
@@ -164,4 +256,24 @@ body {
 
     .nav-link a{
         font-size: 14px;
-    }}
+    }
+
+
+    /* sec renseignement */
+
+
+.renseignement{
+    flex-wrap: wrap;
+     padding:10px ; 
+   
+
+}
+.visite,.formul{
+    width: 100%;
+    margin-bottom: 30px;  
+
+}
+   
+
+
+}
