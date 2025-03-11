@@ -102,11 +102,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(250, 207, 231),rgb(146, 146, 246));
+    background: linear-gradient(rgb(240, 204, 196),rgb(203, 236, 236));
 }
 .new p{
     font-size: 18px;
-    color: rgb(111, 107, 101);
+    color: rgb(82, 79, 76);
+    font-family: 'Times New Roman', Times, serif;
 
 }
 .new h1
@@ -523,7 +524,7 @@ header {
     height: 2.5rem;
     background-color:transparent;
     color: rgb(63, 60, 60);
-    border: 1px solid #302f2f;
+    border: 2px dashed #302f2f;
     border-radius: 50%;
     font-size: 1.3rem;
     text-decoration: none;
@@ -566,20 +567,9 @@ header {
     font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
 /* *{
     border: solid;
 } */
-
-
 
 
 @media screen and (max-width: 1024px){
@@ -617,6 +607,9 @@ header {
     margin: auto;
 } 
 
+.nav-link{
+    flex-wrap: wrap;
+   }
 .nav-link a{
     font-size: 14px;}
     
@@ -640,5 +633,17 @@ header {
 .collection4 {
     grid-template-columns: repeat(1, 1fr);
 }
+  
+
+.footer-sec form button { 
+    height: 40px;
+    width: 92px;
+    margin-left: -10px;
    
+
+}
+.footer-sec form input {
+    width: 95%;
+    height: 40px;
+}
 }
