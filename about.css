@@ -48,10 +48,99 @@ body {
     line-height: 90px; 
 
 }
+.texte-image{
+    background-image: url(Images/ABOUT1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.texte-image {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.texte-image h1{
+    text-align: center;
+    font-size: 36px;
+
+}
 
 
+/* SEC2 */
+.about-cont2{
+    /* display: flex;
+    flex-direction: column; */
+}
+.titre-cont2{
+    text-align: center;
 
+}
+.titre-cont2 h2{
+    font-size: 32px;
 
+}
+.sec2{
+    margin-top: 20px;
+}
+.descript1 img
+{
+height: 65vh;
+width: 65vh;
+}
+.descript1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+}
+.descript2{
+    height: 110vh;
+    /* padding: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid; */
+}
+.photo1{
+position: relative; 
+height: 60vh;
+width: 55vh;
+
+}
+.photo2{
+    position: absolute; 
+    height: 40vh;
+    width: 40vh;
+    bottom: -20vh; 
+    right: -40px
+
+    
+    }
+    .photos{
+         position: relative; 
+         left: -40px;
+    }
+.container3{
+    background-color: rgb(253, 145, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.elements{
+    display: flex;
+   
+}
+.elem{
+    margin-left: 20px;
+}
+.elem h3{
+    text-align: center;
+}
 
 
 
@@ -184,7 +273,10 @@ font-size: 14px;
     .nav-link a{
         font-size: 14px;
     }
-
+/* sec1 ABOUT */
+.texte-image h1{
+    font-size: 28px;
+}
 
 
 

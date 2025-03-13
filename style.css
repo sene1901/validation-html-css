@@ -188,16 +188,17 @@ body{
     
    .container3{
         width: 95%; 
-       margin: auto;
+       margin: auto; 
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center; 
    
    }
-   .container3 h1{
+   .container3 h2{
+    text-align: center;
        color: rgb(89, 86, 86);
-       font-size: 32px;
+       font-size: 32px; 
    }
    .produit-container {
     display: flex;
@@ -257,7 +258,6 @@ body{
 
 .produit:hover .visible{ 
     transition: all;
-    opacity: 1;
     visibility: visible;
 }
 .pourcent{
