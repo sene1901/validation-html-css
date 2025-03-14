@@ -93,16 +93,13 @@ width: 65vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid;
 }
 .descript2{
     height: 110vh;
-    /* padding: 30px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* border: solid; */
 }
 .photo1{
 position: relative; 
@@ -152,6 +149,63 @@ width: 55vh;
     width: 70px;
     font-size: 32px;
 }
+        /* sec4 */
+.sec4{
+    margin-top: 30px;
+}
+
+.definir img{
+
+height: 90vh;
+width: 80vh;
+}
+.about-cont4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-etroile  i{
+    color: rgb(248, 147, 25);
+    font-size: 20px; 
+}
+
+ /* .sec5 */
+ .sec5{
+    margin-top: 30px; 
+   }
+
+   .container5 {
+       padding: 20px;
+       
+       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+   }
+   .container5 p{
+       color: #333;
+       font-size: 18px;
+   }
+   .container5 h3{
+       color: #333;
+       font-size: 28px;
+   }
+/* Grille d'images */
+.image-cont5 {
+display: flex;
+ justify-content: center;  
+}
+   
+.image-cont5 img {
+width: 265px;
+height: 230px;
+}
+
+
+
+
  
 
  /* FOOTER   */
@@ -163,7 +217,6 @@ width: 55vh;
 .footer-container {
 display: flex;
 justify-content: space-around;
-flex-wrap: wrap;
 margin: auto;
 padding: 30px;
 border-top: 1px solid #444; 
@@ -197,7 +250,7 @@ color: rgb(33, 32, 32);
 text-decoration: none;
 }
 
-.footer-icons a i {
+.footer-icons a  {
 display:inline-flex; 
 justify-content: center;
 align-items: center; 
@@ -212,30 +265,39 @@ font-size: 1.3rem;
 text-decoration: none;
 
 }
+.adresse-form{
+    position: relative;
+}
+.footer-sec .input-email input {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #444;
+    position: relative;
+     
+} 
+.footer-sec .bouton-subcribe  button {  
+     height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #141313; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
-.footer-sec form input {
-width: 90%;
-height: 40px;
-padding-bottom: 5px;
-margin-top: 10px;
-color: #242222;
-font-weight: bold;
-background-color: #eae5e5;
+.adresse-form .bouton-subcribe{
+        position: absolute;
+        top: 50%;
+        right: -5px;
+     transform: translateY(-40%); 
 }
 
-.footer-sec form button {
-padding-bottom:  10px;  
-height: 40px;
-width: 120px;
-background-color: #0e0d0d;
-border: none;
-color: white;
-cursor: pointer;
-position: relative;
-top: -7vh; 
-left: 16vh;
-
-}
 .footer-sec form button i{
 color: #FFF;
 }
@@ -283,32 +345,45 @@ font-size: 14px;
 /* .sec2 */
 .descript1{
     flex-wrap: wrap;
-justify-content: center;
 }
 .descript2{
-    height: 180vh;
     flex-wrap: wrap;
 }
+.descript2 .photos{
+    margin-bottom: 25vh; 
 
+}
+.titre-descript{  
+    text-align: center;
+    
+}
+    /* sec3 */
 .elements{
     flex-wrap: wrap;
 }
+    /* sec4 */
+    .about-cont4{
+        flex-wrap: wrap;
+    }
+    .definir img{
+        width:70vh ;
+    }
+    .titre-cont4{
+        text-align: center;
+    }
 
 
-
-/* footer */
-    
-.footer-sec form button { 
-    height: 40px;
-    width: 92px;
-    margin-left: -10px;
-    margin-bottom: 20px;
-   
-
+    /* sec5 */
+.image-cont5{
+    flex-wrap: wrap;
 }
-.footer-sec form input {
-    width: 95%;
-    height: 40px;
+.container5 p{
+    text-align: center;
+}
+
+/* FOOTER */
+.footer-container{
+    flex-wrap: wrap;
 }
 
 }

@@ -93,12 +93,10 @@ integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKh
     <!-- Contrôles -->
     <div class="controls">
         <button class="filter-btn"><i class='bx bx-filter'></i> FILTER</button>
-        <div class="view-options">
-            
-            <i class="fa-sharp-duotone fa-solid fa-grip-dots"></i>
-            <i class="fa-solid fa-grid-2"></i>
-            <i class="fa-light fa-grip-dots"></i>
-            <i class="fa-light fa-grid-round-4"></i>
+        <div class="grid-options">
+            <i class='bx bx-dots-horizontal'></i>
+            <i class='bx bx-grid-small'></i>
+            <i class='bx bx-grid-horizontal'></i>
         </div>
         <select class="sort">
             <option>Featured</option>
@@ -313,9 +311,13 @@ integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKh
         </div>
         <div class="footer-sec">
             <h3>Inscription à la newsletter</h3>
-            <form>
-                <input type="email" placeholder="Votre email">
-                <button>Sudcribe <i class='bx bxs-right-arrow-alt'></i></button>
+            <form class="adresse-form">
+                <div class="input-email">
+                    <input type="email" placeholder="Votre email" required>
+                    <div class="bouton-subcribe">
+                         <button>Sudcribe <i class='bx bxs-right-arrow-alt'></i></button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
