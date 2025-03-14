@@ -48,6 +48,8 @@ body {
     line-height: 90px; 
 
 }
+
+        /* SEC1     */
 .texte-image{
     background-image: url(Images/ABOUT1.jpg);
     background-size: cover;
@@ -69,10 +71,7 @@ body {
 
 
 /* SEC2 */
-.about-cont2{
-    /* display: flex;
-    flex-direction: column; */
-}
+
 .titre-cont2{
     text-align: center;
 
@@ -81,6 +80,7 @@ body {
     font-size: 32px;
 
 }
+/* sec2 */
 .sec2{
     margin-top: 20px;
 }
@@ -123,8 +123,10 @@ width: 55vh;
          position: relative; 
          left: -40px;
     }
+
+    /* sec3 */
 .container3{
-    background-color: rgb(253, 145, 186);
+    background-color: rgb(247, 229, 236);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,20 +139,20 @@ width: 55vh;
 }
 .elem{
     margin-left: 20px;
+    text-align: center;
+  
 }
 .elem h3{
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
+.elem i{
+    border:2px dashed black ;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 32px;
+}
+ 
 
  /* FOOTER   */
  footer{ 
@@ -278,11 +280,23 @@ font-size: 14px;
     font-size: 28px;
 }
 
+/* .sec2 */
+.descript1{
+    flex-wrap: wrap;
+justify-content: center;
+}
+.descript2{
+    height: 180vh;
+    flex-wrap: wrap;
+}
+
+.elements{
+    flex-wrap: wrap;
+}
 
 
 
-
-
+/* footer */
     
 .footer-sec form button { 
     height: 40px;
