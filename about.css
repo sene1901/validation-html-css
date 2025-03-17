@@ -369,6 +369,9 @@ font-size: 14px;
 .elements{
     flex-wrap: wrap;
 }
+.container3 p{
+    text-align: center;
+}
     /* sec4 */
     .about-cont4{
         flex-wrap: wrap;
@@ -379,6 +382,7 @@ font-size: 14px;
     .titre-cont4{
         text-align: center;
     }
+
 
 
     /* sec5 */
