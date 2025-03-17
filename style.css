@@ -266,7 +266,7 @@ body{
     top: 20px;
     right: 30px;
     background: rgb(255, 0, 0);
-    color: white;
+    color: #ffffff;
     padding: 5px 10px;
     font-size: 14px;
     border-radius: 5px;
@@ -587,7 +587,6 @@ align-items: center;
             margin: auto;
         }
         .container9{
-            /* height:90vh;  */
              display: flex;
             align-items: center; 
             flex-direction: column;
@@ -604,18 +603,27 @@ align-items: center;
             color: #111;
             font-size: 28px;
         }
-      .image1-cont9 img
+      .image1-cont9 .image1
         {
             height: 335px;
             width: 220px;
         }
-     .image2-cont9 img{
+        .image1-cont9{
+
+            border: solid;
+        }
+        .image2-cont9{
+            border: solid;
+            
+        }
+        
+     .image2-cont9 .image2 {
         height: 335px;
         width: 220px;
         }
     
-        .partie1 img {
-            height: 70px;
+    .images-cont9 .partie1 img {
+            height: 95px;
             width: 60px;
         }
         .container9    i{
@@ -639,6 +647,7 @@ align-items: center;
                 
             }
             .container9 .elem{
+                height: 335px;
                 display: flex;
                 flex-direction: column;
                 margin-left: 30px;
@@ -647,9 +656,15 @@ align-items: center;
                 font-size:18px ;
                 color: rgb(69, 67, 65);
             }
+            .container9 span{
+                font-size:18px ;
+                color: rgb(69, 67, 65);
+        
+            }
             .container9 h3{
                 color: rgb(69, 67, 65);
                 font-size:24px ;
+        
             }
             .partie1{
                 display: flex;
@@ -976,10 +991,18 @@ height: 230px;
         flex-wrap: wrap;
         
     }
-    .partie1 img {
-        height: 100px;
-        width: 60px;
+    .image1-cont9  .image1 {
+    
+        width: 180px;
+        }
+    .image2-cont9  .image2 {
+    
+        width: 180px;
+        }
+    .container9 h3{
+        margin-top: -20px;
     }
+   
 
      /* SEC10 */
             .container10 {
