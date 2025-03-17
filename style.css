@@ -639,10 +639,12 @@ align-items: center;
             .image1-cont9{
                 display: flex;
                 
+                
 
             }
             .image2-cont9{
                 display: flex;
+            
         
                 
             }
@@ -993,18 +995,22 @@ height: 230px;
         
     }
     .image1-cont9  .image1 {
-        height: 310px;
+        height: 328px;
         width: 180px;
         }
     .image2-cont9  .image2 {
-        height: 310px;
+        height: 328px;
         width: 180px;
         }
-        .partie1 img{
-            /* height: 30px; */
+     .container9 .partie1 img{
+    
         }
     .container9 h3{
-         margin-top: -2px;   
+         margin-top: -10px;   
+    }
+    .container9 span{
+        margin-top: -13px; 
+
     }
    
 
