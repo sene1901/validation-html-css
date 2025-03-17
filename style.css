@@ -48,9 +48,6 @@ body{
 }
 
     /* SEC1 */
-.sec1{
-    
-} 
 .container1{
      /* height: 75vh; */
     display: grid;
@@ -516,9 +513,6 @@ margin: auto;
               font-size: 32px;
               text-align: center;}
           /* sec8 */
-          .sec8{
-        
-          }
           .image1-cont8 p{
             color: #FFF;
           }
@@ -995,16 +989,19 @@ height: 230px;
         
     }
     .image1-cont9  .image1 {
-        height: 328px;
+        
         width: 180px;
         }
     .image2-cont9  .image2 {
-        height: 328px;
+       
+
         width: 180px;
         }
-     .container9 .partie1 img{
+      .container9  .image2-cont9{
+        margin-top: 20px;
+
+      }
     
-        }
     .container9 h3{
          margin-top: -10px;   
     }
