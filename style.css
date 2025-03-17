@@ -580,7 +580,7 @@ align-items: center;
         /* SEC9 */
 .sec9{
 
-             margin-top: 30px;  
+         margin-top: 30px;  
         }
         .container9{
             width: 95%;
@@ -990,17 +990,21 @@ height: 230px;
     .container9 .images-cont9{
         flex-wrap: wrap;
         
+        
     }
     .image1-cont9  .image1 {
-    
+        height: 310px;
         width: 180px;
         }
     .image2-cont9  .image2 {
-    
+        height: 310px;
         width: 180px;
         }
+        .partie1 img{
+            /* height: 30px; */
+        }
     .container9 h3{
-        margin-top: -20px;
+         margin-top: -2px;   
     }
    
 
