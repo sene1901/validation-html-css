@@ -316,7 +316,8 @@ header {
 
 .article3 img {
     width: 250px; 
-    height: 400px; 
+    height: 400px;
+    object-fit: cover; 
     border-radius: 5px;
 }
 
@@ -404,7 +405,8 @@ header {
 
 .article4 img {
     width: 250px; 
-    height: 400px; 
+    height: 400px;
+    object-fit: cover; 
     border-radius: 5px;
     margin: auto;
 }
@@ -462,6 +464,10 @@ header {
     font-weight: bold;
     
 }
+.payment img{
+    object-fit: cover;
+}
+  
 
         /* FOOTER   */
         footer{ 

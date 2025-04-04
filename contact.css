@@ -221,6 +221,10 @@ padding-top: 20px;
 border-top: 1px solid #444; 
 font-size: 14px;
 }
+.payment img{
+    object-fit: cover;
+}
+  
 @media screen and (max-width: 1024px) {
     body{
         

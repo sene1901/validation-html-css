@@ -88,6 +88,7 @@ body {
 {
 height: 65vh;
 width: 65vh;
+object-fit: cover;
 }
 .descript1{
     display: flex;
@@ -105,12 +106,14 @@ width: 65vh;
 position: relative; 
 height: 60vh;
 width: 55vh;
+object-fit: cover;
 
 }
 .photo2{
     position: absolute; 
     height: 40vh;
     width: 40vh;
+    object-fit: cover;
     bottom: -20vh; 
     right: -40px
 
@@ -166,6 +169,7 @@ width: 55vh;
 
 height: 90vh;
 width: 80vh;
+object-fit: cover;
 }
 .about-cont4{
     display: flex;
@@ -209,12 +213,9 @@ display: flex;
 .image-cont5 img {
 width: 265px;
 height: 230px;
+object-fit: cover;
 }
 
-
-
-
- 
 
  /* FOOTER   */
  footer{ 
@@ -318,6 +319,10 @@ padding-top: 20px;
 border-top: 1px solid #444; 
 font-size: 14px;
 }
+.payment img{
+    object-fit: cover;
+}
+  
 
 @media screen and (max-width: 1024px) {
     body{
