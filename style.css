@@ -167,14 +167,14 @@ body{
 
  .bnt {
     background-color:rgb(255, 255, 255);
-        width: 21vh;
+        width: 22vh;
         height: 7vh;
         border: 1px solid #FFF;
         color:    rgb(59, 57, 57);
         font-size: 16px;
         font-weight: 400;
         cursor: pointer;
-        text-align: center;
+        text-align: center; 
         position: relative;
          bottom: 90px; 
          margin: auto;
@@ -479,8 +479,8 @@ margin: auto;
     }
     
     .container6 h1{
-        color: rgb(50, 49, 49);
-        font-size: 32px;
+        color: white;
+        font-size: 36px; 
          text-align: center; 
     }
     .images-cont6  .bnt{
@@ -595,7 +595,7 @@ align-items: center;
         .container9 h2{
             text-align: center;
             color: #111;
-            font-size: 28px;
+            font-size: 32px;
         }
       .image1-cont9 .image1
         {
@@ -620,7 +620,7 @@ align-items: center;
     
     .images-cont9 .partie1 img {
         object-fit: cover;
-            height: 95px;
+            height: 90px;
             width: 60px;
         }
         .container9    i{
@@ -635,21 +635,20 @@ align-items: center;
 
             .image1-cont9{
                 display: flex;
+                align-items: center;
+                justify-content: center;
                 
                 
 
             }
             .image2-cont9{
-                display: flex;
-            
-        
-                
+                display: flex; 
             }
             .container9 .elem{
-                height: 335px;
+                 height: 335px;
                 display: flex;
                 flex-direction: column;
-                margin-left: 30px;
+                 margin-left: 25px; 
             }
             .container9 p{
                 font-size:18px ;
@@ -657,7 +656,8 @@ align-items: center;
             }
             .container9 span{
                 font-size:18px ;
-                color: rgb(69, 67, 65);
+                color: rgb(112, 111, 110);
+                font-weight: 100;
         
             }
             .container9 h3{
@@ -667,6 +667,7 @@ align-items: center;
             }
             .partie1{
                 display: flex;
+                margin-top: -10px;
               
             }
             .partie1 p{
@@ -693,11 +694,16 @@ align-items: center;
                 background-color: #f8f3ea;
             }
             .box {
-                 text-align: center;
-                max-width: 230px;
+
+                 /* text-align: center; */
+                 max-width: 230px; 
                 display: flex;
+                align-items: center;
+                justify-content: center;
             }
-            
+            .part{
+                margin-left:  15px;
+            }
             .icon i {
                 width: 60px;
                 height: 60px;
@@ -720,17 +726,19 @@ align-items: center;
             }
             /* .sec11 */
             .sec11{
-             padding-top: 30px; 
+             padding-top: 30px;  
             }
-
+            .montitre{
+                text-align: center;
+            }
             .container11 {
-                padding: 20px;
-                
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                justify-content: center;
+                /* position: relative; */
                 
             }
             .container11 p{
@@ -742,10 +750,13 @@ align-items: center;
                 font-size: 28px;
             }
    /* Grille d'images */
+
   .image-cont11 {
-         display: flex;
-          justify-content: center;  
+         display: flex; 
+        /* justify-content: center;  */
+        /* align-items: center;  */
 }
+
             
 .image-cont11 img {
  object-fit: cover;
@@ -757,6 +768,7 @@ height: 230px;
  footer {
     background-color: #111;
    color: white;
+   /* margin-bottom: 40px; */
  }
 
 .footer-container {
@@ -765,11 +777,11 @@ height: 230px;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
-     padding: 20px; 
+      padding: 20px;  
 }
 
 .footer-sec {
-    width: 250px;
+    width: 290px; 
 }
 
 .footer-sec h3 {
@@ -859,7 +871,9 @@ height: 230px;
   border-top: 1px solid #444; 
     font-size: 14px;
 }
+
 .payment img{
+    
     object-fit: cover;
 }
      
